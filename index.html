@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Quest 🌌</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: system-ui, sans-serif; }
+        .hero { background: linear-gradient(135deg, #0a0a0a, #1a1a2e); }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+    <div class="min-h-screen hero flex items-center justify-center">
+        <div class="max-w-2xl mx-auto text-center px-6">
+            <h1 class="text-7xl font-bold mb-6 tracking-tighter">Cosmic Quest</h1>
+            <p class="text-2xl text-cyan-300 mb-12">Votre aventure dans l'Univers avec Grok</p>
+            
+            <button onclick="startApp()" class="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-12 py-6 rounded-3xl text-2xl font-semibold hover:scale-105 transition flex items-center gap-4 mx-auto">
+                <i class="fas fa-rocket"></i> Commencer l'Exploration
+            </button>
+            
+            <div class="mt-16 grid grid-cols-3 gap-8 text-left">
+                <div class="bg-white/5 p-6 rounded-3xl">
+                    <h3 class="text-cyan-400">Quiz Cosmique</h3>
+                    <p class="text-sm text-gray-400">Testez vos connaissances</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-3xl">
+                    <h3 class="text-cyan-400">Faits Étonnants</h3>
+                    <p class="text-sm text-gray-400">Apprenez sur l'univers</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-3xl">
+                    <h3 class="text-cyan-400">Mode Sombre</h3>
+                    <p class="text-sm text-gray-400">Thème spatial immersif</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function startApp() {
+            alert('🚀 Bienvenue dans Cosmic Quest ! Cette app formidable est hébergée sur GitHub. Ajoutez plus de fonctionnalités comme bon vous semble !');
+            // Ici vous pouvez étendre l'application
+        }
+    </script>
+</body>
+</html>
